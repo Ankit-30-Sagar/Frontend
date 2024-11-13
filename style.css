@@ -1,0 +1,15 @@
+.header{
+    background-color: orangered;
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+    border: 20px solid white;
+    border-top: 15px solid indigo;
+    animation: ani 2.5s linear  infinite;
+}
+
+@keyframes ani{
+    to{
+        transform: rotate(360deg);
+    }
+}
